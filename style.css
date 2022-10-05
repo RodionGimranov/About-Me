@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: #fff;
+}
+
+.surname {
+    position: absolute;
+    font-family: 'Roboto';
+    color: #0E7AE6;
+    font-size: 70px;
+    left: 60px;
+    top: 41px;
+} 
+
+/*Navigation*/
+
+a:hover {
+    color: #4B4B4B;
+    text-decoration: none;
+} 
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+.aboutme {
+    position: absolute;
+    font-family: 'Roboto';
+    color: #000;  
+    font-size: 25px;
+    left: 1050px;
+    top: 60px; 
+}
+
+.project {
+    position: absolute;
+    font-family: 'Roboto';
+    color: #000;
+    font-size: 25px;
+    left: 1185px;
+    top: 60px;
+}
+
+.contactme {
+    position: absolute;
+    font-family: 'Roboto';
+    color: #000;
+    font-size: 25px;
+    left: 1300px;
+    top: 60px;
+}
+
+/*Main Text*/
+
+.maintext {
+    position: absolute;
+    font-family: 'Roboto';
+    color: #000;
+    font-size: 70px;
+    left: 60px;
+    top: 250px;
+    line-height: 90px
+}
+
+/*Little Text*/
+
+.littletext {
+    position: absolute;
+    font-family: 'Roboto';
+    color: #6B6868;
+    font-size: 29px;
+    left: 60px;
+    top: 580px;
+    width: 700px;
+    height: 187px;
+}
+
+/*Emoji*/
+
+.emoji {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 155px;
+    top: 230px;
+}
+
+/*Photo*/
+
+.me {
+    position: absolute;
+    width: 390px;
+    height: 475px;
+    left: 900px;
+    top: -385px;
+    box-shadow: 15px -15px 0px #0E7AE6;
+    border-radius: 0px 0px 0px 120px;
+    outline: 5px solid #000;
+}
+
+/*Buttons*/
+  
+.button1:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #0E7AE6;
+  }
+
+.button1 {
+    outline: 3px solid #000;
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 50px;
+    margin-right: 38px;
+    border-right: 15px;
+}
+
+.button2:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #0E7AE6;
+  }
+
+.button2 {
+    outline: 3px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 1;
+}
